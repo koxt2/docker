@@ -8,7 +8,7 @@ on:
 
 env:
   REGISTRY: ghcr.io
-  IMAGE_NAME: koxt2/docker/akaunting
+  IMAGE_NAME: akaunting/docker/akaunting
 
 jobs:
   build-and-push:
@@ -36,4 +36,4 @@ jobs:
           file: ./Dockerfile
           push: true
           tags: |
-            ghcr.io/koxt2/docker/akaunting:latest
+            ghcr.io/akaunting/docker/akaunting:latest
